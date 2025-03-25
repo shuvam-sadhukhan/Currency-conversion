@@ -71,7 +71,7 @@ async function main(){
         console.log(data1[i][j]);
         let finalAmt=data1[i][j]*amt.value;
         console.log(finalAmt);
-        message.innerText=`${amt.value} ${from.value}=${finalAmt}${to.value} `;
+        message.innerText=` ${amt.value} ${from.value} = ${finalAmt} ${to.value} `;
         }
     }
    
